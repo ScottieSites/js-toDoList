@@ -1,0 +1,28 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.container > h1 { 
+justify-content: center;
+
+}
+
+body{
+background-color: rgb(133, 126, 199);
+
+}
+
+form{
+display: flex;
+justify-content: center;
+height: 100%;
+}
+
+/* div > .list{ */
+  /* widows: 100px; */
+/* } */
+
+
