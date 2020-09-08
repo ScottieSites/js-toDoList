@@ -1,28 +1,31 @@
-
-.container{
-  display: flex;
-  justify-content: center;
-  
-}
-
-.container > h1 { 
-justify-content: center;
-
-}
-
 body{
-background-color: rgb(133, 126, 199);
-
+  background: blue;
 }
 
-form{
-display: flex;
-justify-content: center;
-height: 100%;
+h1{
+  text-align: center;
+  color: white;
 }
 
-/* div > .list{ */
-  /* widows: 100px; */
-/* } */
+.container {
+ position: relative;
+}
+  
+#input {
+  width: 250px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  margin: 50px 0 0 -120px;  
+}
+  
+  #submit{
+  margin-left: 820px;
+  margin-top: 30px;
+}
+  
+ul{
 
-
+}
