@@ -1,7 +1,6 @@
 const input = document.querySelector("#input");
 const ul = document.querySelector("ul");
 const submit = document.querySelector("#submit");
-
 let lists = [];
 
 
@@ -39,12 +38,12 @@ if(confirm('Do you really want to delete this task?')){
   }
 }
 
-if(window.localStorage){
-  let input = document.getElementById('input');
-input.value = localStorage.getItem('input');
-input.addEventListener('lists', function(){
-  localStorage.setItem('');
-})
+if(window.localstorage){
+  let newInput = document.getElementById('input');
+newInput.value = localStorage.getItem('input');
+newInput.addEventListener('lists', function(){
+  localStorage.setItem('input', newInput.value);
+}, false)
 
 
 
